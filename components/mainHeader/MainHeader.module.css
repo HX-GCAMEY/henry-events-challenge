@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  background: black;
+  height: 5rem;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.link {
+  color: aliceblue;
+}

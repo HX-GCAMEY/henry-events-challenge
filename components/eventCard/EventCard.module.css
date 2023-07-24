@@ -1,0 +1,40 @@
+.card {
+  margin: 1rem;
+  display: flex;
+  gap: 1rem;
+  border: solid black 2px;
+}
+
+.card img {
+  width: 100%;
+  align-self: center;
+  height: 10rem;
+}
+
+.content {
+  width: 100%;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.content h2 {
+  margin: 0.5rem 0;
+}
+
+.date,
+.address {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.content time {
+  color: #666666;
+  font-weight: bold;
+}
+
+.content address {
+  margin: 0.5rem 0;
+  color: #666666;
+  white-space: pre;
+}
